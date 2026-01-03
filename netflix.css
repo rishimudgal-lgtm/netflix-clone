@@ -1,0 +1,280 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+/**header**/
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: 
+        linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.7)),
+        url(images/netflix-background.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    margin-right: 150px;
+    padding-top: 30px;
+}
+.netflix-logo{
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    top: -27px;
+    left: -28px;
+    color: red;
+}
+.head-tabs{
+    display: flex;
+}
+.head-lang{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 32px;
+    width: 120px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.head-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    height: 30.4px;
+    width: 75.3px;
+    font-weight: bold;
+    border: 0.8px red solid;
+    border-radius: 8%;
+}
+.head-signin:hover{
+    background-color: darkred;
+    border-color: darkred;
+}
+/**hero**/
+.bold-heading{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    height: 140px;
+    width: 100%;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 110px;
+}
+.below-heading{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.head-note{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.address-bar{
+    height: 56px;
+    padding-top: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.address-bar input{
+    width: 334px;
+    padding: 15.2px 16px 15.2px 16px;
+    color: grey;
+    background-color: rgba(0,0,0,0.1);
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.address-bar button{
+    width: 213.25px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    border: 1px red solid;
+    border-radius: 5px;
+}
+.address-bar button:hover{
+    background-color: darkred;
+    border-color: darkred;
+}
+.red-line{
+    height: 3px;
+    width: 100%;
+    background-color: red;
+}
+/**content**/
+.trending-now{
+    margin-top: 30px;
+    margin-left: 140px;
+    color: white;
+    height: 30.4px;
+    font-weight: 500;
+    width: 900px;
+    display: flex;
+}
+.trending-now h2{
+    font-size: 24px;
+}
+.trending-posters{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.poster{
+    height: 252px;
+    width: 180px;
+    position: relative;
+}
+.poster img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.number{
+    font-size: 100px;
+    font-weight: 900;
+    position: absolute;
+    bottom: -25px;
+    left: -20px;
+    padding-bottom: 50px;
+    z-index: 2;
+    -webkit-text-stroke: 2px lightgray;
+    color: black;
+}
+.more-reasons{
+    margin-top: 80px;
+
+    padding: 0px 148px 80px;
+}
+.reason-tabs-div{
+    display: flex;
+    justify-content: space-between;
+}
+.more-reasons-text{
+    font-size: 16px;
+}
+.reason-tabs{
+    height: 328.8px;
+    width: 256px;
+    background: linear-gradient(
+        135deg,
+        #1b1f3b 0%,
+        #14121f 45%,
+        #0b0b0f 100%
+    );
+    padding: 0px 16px 0px 16px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.tabs-heading{
+    font-size: 24px;
+}
+.tabs-content{
+    font-size: 17px;
+    color: #FFFFFFB3;
+}
+.card-icon{
+    font-size: 60px;
+    position: relative;
+    bottom: -70px;
+    left: 180px;
+}
+.questions{
+    padding: 0px 148px;
+}
+.questions p{
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+}
+.question-boxes{
+    font-size: 24px;
+    margin-bottom: 9.6px;
+    padding: 24px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+}
+.question-boxes:hover{
+    background-color: #3A3a3a;
+}
+.question-boxes p{
+    margin: 0px;
+    font-weight: 400;
+}
+.plus-sign{
+    font: 24px;
+}
+/**content ends**/
+/**footer**/
+footer{
+    padding: 0px 148px;
+}
+.above-address-bar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.above-address-bar2 h3{
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    color: white;
+}
+.foot-ques{
+    margin-top: 75px;
+    color: darkgrey;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.foot-tabs{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.tabs-edit a{
+    color: darkgrey;
+    font-size: 15px;
+    font-weight: 500;
+}
+.tabs-edit{
+    padding-bottom: 12px;
+}
+.netflix-india{
+    margin-top: 36px;
+    font-size: 14px;
+    color: darkgrey;
+}
+.foot-protect{
+    margin-top: 36px;
+    margin-bottom: 144px;
+    font-size: 13px;
+    color: darkgrey;
+}
+.foot-protect a{
+    color: #448EF4;
+}
+/**footer-ends**/
+/**CSS ends**/
