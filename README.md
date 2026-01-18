@@ -13,6 +13,15 @@ The main goal was to improve UI accuracy and CSS confidence by cloning a popular
 
 ---
 
+## 📷 Screenshots
+
+### Homepage
+![Homepage](screenshots/screenshot1.png)
+![movies](screenshots/screenshot2.png)
+![queries](screenshots/screenshot3.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 - **HTML5**
